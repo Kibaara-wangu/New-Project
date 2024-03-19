@@ -1,0 +1,47 @@
+body{
+    background-color:rgb(179, 55, 123);
+    margin-left: 5%;
+    margin-right: 5%;
+}
+#background{
+    Background-color: darkcyan;
+}
+#navbar{
+    display: flex;
+    gap: 70px;
+    
+}
+button{
+    color: white;
+    background-color: orangered;
+    margin-left: 10px;
+}
+.search{
+display: flex;
+}
+.heading{
+    color: white;
+    font-size: 40px;
+}
+.paragraph{
+    font-size: 30px;
+}
+img{
+    cursor: pointer;
+    position: absolute;
+    margin-left: 80px;
+    margin-top: -1px;
+} 
+#search-text-input{
+    max-width: 100px;
+    height: 20px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+    
+ 
+        
