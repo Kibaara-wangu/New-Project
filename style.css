@@ -38,7 +38,9 @@ a{
 }
 .icons{
     display: flex;
-    gap: 80px;
+    gap: 40px;
+    margin-left: 40%;
+    
 }
 input{
     width: 40%;
@@ -99,7 +101,7 @@ img{
     align-items: center; 
     font-size: 30px;
     display: flex;
-    margin-right: 30%;
+    margin-right: 50%;
     gap: 20px;
 }
 .School{
@@ -110,15 +112,19 @@ img{
     justify-content: center;
     align-items: center;
     font-size: 30px;
+    display: flex;
+    gap: 20px;
 }
 .form{
-    border: solid 1px;
-    height: 100vh;
+    border: solid 2px;
+    height: 50vh;
     border-color: black;
     display: block;
     justify-content: center;
     align-items: center;
     font-size: 30px;
+    margin-left: 30%;
+    margin-right: 30%;
 }
 footer{
     line-height: 40px;
@@ -160,6 +166,7 @@ button{
 .name{
     padding: 20px;
 }
+
 
 
     
