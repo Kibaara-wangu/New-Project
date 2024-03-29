@@ -5,12 +5,11 @@
 #navbar{
     display: flex;
     gap: 300px;
-    
-
-    
+    font-size: 20px;   
 }
 body{
-    background-color: #8A2BE2;
+    background-color: ;
+    margin: 2%;
     margin: 5%;
 }
 button{
@@ -20,19 +19,16 @@ button{
 }
 .search{
 display: flex;
-}
-.heading{
+} 
+ .heading{
     color: blue;
     font-size: 40px;
 }
-
-
 #image{
     background-image: url(images/school.jpeg);
-    height: 200px;
+    height: 800px;
     background-repeat: no-repeat;
-    margin-left: 65%;
-    
+    margin-left: 5%;   
 }
 
 a{
@@ -46,14 +42,6 @@ a{
     margin-left: 40%;
     
 }
-input{
-    width: 40%;
-    padding: 15px 20px;
-    margin: 10px;
-    display: inline-block;
-    border: solid 1px;
-    box-sizing: border-box;
-}
 button{
     background-color: blueviolet;
     color: black;
@@ -63,8 +51,15 @@ button{
     cursor: pointer;
     width: 40%;
 }
+.odd{
+    width: 450px;
+
+}
 .name{
     padding: 20px;
+}
+.homepage{
+
 }
 img{
     cursor: pointer;
@@ -84,6 +79,11 @@ img{
 .image1{
     margin-bottom: 30%;
     margin-right: 20%;
+}
+.log{
+    height: 500px;
+    width: 700px;
+    margin-bottom: 40%;
 }
 .body1{
     height: 100vh;
@@ -109,9 +109,7 @@ img{
     gap: 20px;
 }
 .School{
-    border: solid 1px;
     height: 100vh;
-    border-color: black;
     display: block;
     justify-content: center;
     align-items: center;
@@ -136,26 +134,13 @@ footer{
     justify-content: center;
     font-size: 20px;
 }
-#home{
-    background-color: bisque;
 
-}
-#course{
-    background-color: palevioletred;
-}
-#About{
-    background-color: blanchedalmond;
-
-}
-#login{
-    background-color: bisque;
-}
 input{
     width: 40%;
     padding: 15px 20px;
     margin: 10px;
     display: inline-block;
-    border: solid 1px;
+    /* border: solid 1px; */
     box-sizing: border-box;
 }
 button{
@@ -177,6 +162,7 @@ button{
     height: 100vh;
     position: relative;
     overflow: hidden;
+    color: wheat;
     background: linear-gradient(to right,#9c27b0,#8ecd);
 }
 .information{
@@ -188,16 +174,14 @@ button{
     transform: translateY(-50%);
 }
 #circle{
-    width: 1000px;
-    height: 1000px;
+    width: 1300px;
+    height: 1300px;
     position: absolute;
-    top: 0;
-    left: 0;
-    border-radius: 50%;
+     top: 0;
+    left: 0; 
     transform: rotate(0deg);
     transition: 1s;
     color: white;
-    /* background: #ccc; */
 }
 .feature h1{
     width: 70px;
@@ -268,26 +252,7 @@ transform: rotate(-90deg);
     right: 0;
 }
 
-/* .school{
-    width: 100px;
-    height: 1000px;
-    position: absolute;
-    top: 50%;
-    left: -10%;
-    transform:translateY(-50%)  
-}
-#circle{
-    width: 100px;
-    height: 1000px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    transform:translateY(-50%);
-    border-radius: 50%;
-    background: #ccc;
 
-      
-} */
-    
+
  
         
