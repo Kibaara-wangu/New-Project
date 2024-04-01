@@ -8,27 +8,8 @@
     font-size: 20px;   
 }
 body{
-    background-color: ;
-    margin: 2%;
-    margin: 5%;
-}
-button{
-    color: white;
-    background-color: orangered;
-    margin-left: 10px;
-}
-.search{
-display: flex;
-} 
- .heading{
-    color: blue;
-    font-size: 40px;
-}
-#image{
-    background-image: url(images/school.jpeg);
-    height: 800px;
-    background-repeat: no-repeat;
-    margin-left: 5%;   
+    border: solid 2px;
+    padding: 5%;
 }
 
 a{
@@ -39,8 +20,7 @@ a{
 .icons{
     display: flex;
     gap: 40px;
-    margin-left: 40%;
-    
+    margin-left: 40%;    
 }
 button{
     background-color: blueviolet;
@@ -52,15 +32,12 @@ button{
     width: 40%;
 }
 .odd{
-    width: 450px;
-
-}
+    margin-left: 3%;
+} 
 .name{
     padding: 20px;
 }
-.homepage{
 
-}
 img{
     cursor: pointer;
     position: absolute;
@@ -80,12 +57,7 @@ img{
     margin-bottom: 30%;
     margin-right: 20%;
 }
-.log{
-    height: 500px;
-    width: 700px;
-    margin-bottom: 40%;
-}
-.body1{
+ .body1{
     height: 100vh;
     border-color: black;
     display: block;
@@ -95,7 +67,7 @@ img{
     display: flex;
     margin-right: 30%;
     gap: 40px;
-}
+} 
 .offers{
    
     height: 100vh;
@@ -108,7 +80,7 @@ img{
     margin-right: 50%;
     gap: 20px;
 }
-.School{
+ .School{
     height: 100vh;
     display: block;
     justify-content: center;
@@ -116,18 +88,7 @@ img{
     font-size: 30px;
     display: flex;
     gap: 20px;
-}
-.form{
-    border: solid 2px;
-    height: 50vh;
-    border-color: black;
-    display: block;
-    justify-content: center;
-    align-items: center;
-    font-size: 30px;
-    margin-left: 30%;
-    margin-right: 30%;
-}
+} 
 footer{
     line-height: 40px;
     display: flex;
@@ -140,7 +101,6 @@ input{
     padding: 15px 20px;
     margin: 10px;
     display: inline-block;
-    /* border: solid 1px; */
     box-sizing: border-box;
 }
 button{
@@ -257,6 +217,240 @@ transform: rotate(-90deg);
     padding: 5%;
     background-color: grey;
     border-radius: 40px;
+}
+@media all and (min-width:200px) and (max-width:1300px) {
+   
+#background{
+    background-color: black;
+}
+#navbar{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 35px;
+    font-size: 30px;   
+}
+body{
+    border: solid 2px;
+    padding: 1%;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    margin-top: 1%;
+}
+.icons{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-left: 10%;    
+}
+button{
+    background-color: blueviolet;
+    color: black;
+    padding: 5px 5px;
+    margin: 7px;
+    border: none;
+    cursor: pointer;
+    width: 10%;
+}
+.odd{
+    margin-left: 3%;
+    width: 100px;
+    height: 100px;
+} 
+.name{
+    padding: 10px;
+}
+
+img{
+    cursor: pointer;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: -1px;
+} 
+#section{
+    height: 100vh;
+    border: solid 1px;
+    border-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+#image1{
+    width: 100px;
+    height: 100px;
+}
+ .body1{
+    height: 100vh;
+    border-color: black;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 30%;
+    gap: 40px;
+} 
+.offers{
+   
+    height: 100vh;
+    border-color: black;
+    display: block;
+    justify-content: center;
+    align-items: center; 
+    font-size: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 10%;
+    gap: 10px;
+    overflow: hidden;
+
+}
+ .School{
+    height: 100vh;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+} 
+footer{
+    line-height: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 10px;
+}
+
+input{
+    width: 40%;
+    padding: 15px 20px;
+    margin: 10px;
+    display: inline-block;
+    box-sizing: border-box;
+}
+button{
+    background-color: blueviolet;
+    color: black;
+    padding: 15px 20px;
+    margin: 7px;
+    border: none;
+    cursor: pointer;
+    width: 40%;
+}
+.name{
+    padding: 20px;
+}
+
+
+.main{
+    width:100% ;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    color: wheat;
+    background: linear-gradient(to right,#9c27b0,#8ecd);
+}
+.information{
+    width: 1000px;
+    position: absolute;
+    top: 50%;
+    left: -10%;
+    transform: translateY(-50%);
+}
+#circle{
+    width: 1300px;
+    height: 1300px;
+    position: absolute;
+     top: 0;
+    left: 0; 
+    transform: rotate(0deg);
+    transition: 1s;
+    color: white;
+}
+.feature h1{
+    width: 70px;
+}
+.feature{
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+.one{
+    top: 450px;
+    right: 50px;
+}
+.two{
+top: 150px;
+left: 350px;
+transform: rotate(-90deg);
+}
+.three{
+    bottom: 450px;
+    left: 50px;
+    transform: rotate(-180deg);
+}
+.four{
+    bottom: 150px;
+    right: 350px;
+    transform: rotate(-270deg);
+}
+.school{
+    width: 350px;
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    transform: translateY(-50%);
+    z-index: 1;
+}
+.controls{
+    position: absolute;
+    right: 10%;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+
+}
+.controls h3{
+    margin: 15px 0;
+    color: blue;
+}
+#upBtn{
+    width: 15px;
+    cursor: pointer;
+}
+#downBtn{
+    width: 15px;
+    cursor: pointer;
+    transform: rotate(180deg);
+
+}
+.lay{
+    width: 0;
+    height: 0;
+    border-top: 500px solid white;
+    border-right: 500px solid transparent;
+    border-bottom: 500px solid white;
+    border-left: 500px solid white;
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 5%;
+    background-color: grey;
+    border-radius: 40px;
+} 
 }
 
 

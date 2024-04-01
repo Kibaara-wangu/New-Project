@@ -11,15 +11,15 @@ body{
     background: transparent;
     border-radius: 12px;
 }
-.wrapper h1{
+/* .wrapper h1{
     font-size: 38px;
     text-align: center;
     color: white;
-}
+} */
 .wrapper .input-box{
     width: 100%;
     height: 50px;
-    margin: 30px o;
+    margin: 30px;
 
 }
 .input-box input{
@@ -28,41 +28,44 @@ body{
     background: transparent;
     outline: none;
     font-size: 20px;
-    color: white;
+    /* color: white; */
     padding: 20px;
     border: none;
     border: 2px solid rgba(255, 255, 255, .2);
     border-radius: 40px;
 }
-.input-box inpu::placeholder{
+/* .input-box inpu::placeholder{
     color:#fff
-}
+} */
 .forgot{
     display: flex;
     justify-content: space-around;
     font-size: 15px;
-    margin: -15px 0 15px
+    margin: -15px 0 15px;
 }
-.input{
+/* .input{
     accent-color: #fff;
     margin-right: 3px;
-}
-.remember-forgot{
+} */
+/* .remember-forgot{
     color: #fff;
     text-decoration: none;
-}
+} */
 .remember-forgot a:hover{
     text-decoration: underline;
+    /* color: black; */
 }
-.btn{
+.button{
     width: 100%;
     height: 45px;
-    background: #fff;
+     /* background-color:;  */
     border: none;
     outline: none;
     border-radius: 45px;
     cursor: pointer;
     font-size: 16px;
+    /* color:black; */
+    text-decoration: none;
 }
 .register-link{
     font-size: 15px;
@@ -70,7 +73,7 @@ body{
     margin-top: 20px;
 }
 a{
-    color: #fff;
+    color:#000;
     text-decoration: none;
 }
 
